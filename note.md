@@ -4,3 +4,6 @@
 4. mixed: (不加reset默认) 撤销本地仓库，暂存区的修改，只保留了工作区的修改(commit后文件有错，想去掉这次commit，但那次commit的修改本地还有！！！)
 5. 合并本地的多次commit: git rebase -i commitID(要合并到的id), p要用的id, s合并到前一个commit
    若要撤销合并 git rebase --abort
+
+
+6. ......
